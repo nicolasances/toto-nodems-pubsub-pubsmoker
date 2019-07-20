@@ -1,0 +1,16 @@
+{
+  "name": "toto-nodems-pubsub-pubsmoker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment-timezone": "^0.5.26",
+    "toto-api-controller": "^4.7.2",
+    "toto-event-publisher": "^6.1.1"
+  }
+}
