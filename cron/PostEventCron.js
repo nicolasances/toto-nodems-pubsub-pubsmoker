@@ -16,7 +16,7 @@ var cid = () => {
 }
 
 // Define the job
-var job = new CronJob('* * * * * *', () => {
+var job = new CronJob('* * * * */10 0', () => {
 
     // Get a correlation id 
     let correlationId = cid();
