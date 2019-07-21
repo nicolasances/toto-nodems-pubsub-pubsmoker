@@ -1,5 +1,4 @@
 var totoEventPublisher = require('toto-event-publisher');
-var moment = require('moment-timezone');
 
 exports.do = (req) => {
 
@@ -9,7 +8,8 @@ exports.do = (req) => {
 
         let event = {
             correlationId: correlationId,
-            timestamp: moment().tz('Europe/Rome').format('YYYY.MM.DD.HH.mm.SS.sss')
+            id: req.body.id,
+            sent: req.body.sent
         }
 
         totoEventPublisher.publishEvent('totoPubsubSmoke', event).then(success, failure);
