@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "cron": "^1.7.1",
-    "moment-timezone": "^0.5.26",
+    "moment-timezone": "^0.5.35",
     "toto-api-controller": "^4.7.2",
     "toto-event-publisher": "^6.2.0",
     "toto-request": "^4.2.0"
